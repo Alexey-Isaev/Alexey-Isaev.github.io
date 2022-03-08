@@ -1,0 +1,19 @@
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+    .form{
+        width: 768px;
+        &__header{
+            font-size: 22px;
+            padding-top: 3px;
+            height: 81px;
+        }
+    }
+    .search-form__button{
+        font-size: 14px;
+    }
+    .search-form__input{
+        padding-left: 15px;
+        padding-top: 5px;
+        font-size: 14px;
+        width: 281px;
+    }
+}

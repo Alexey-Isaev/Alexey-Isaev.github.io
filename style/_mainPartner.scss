@@ -1,0 +1,164 @@
+.partner{
+    width: 1440px;
+    height: 456px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    &__container{
+        width: 941px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__header{
+        width: 931px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        color: $main-header;
+        margin-bottom: 3px;
+    }
+    &__content{
+        width: 941px;
+        height: 224px;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button-space{
+        width: 180px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    &__button{
+        width: 180px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 2px solid #FF4E50;
+        border-radius: 40px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FF4E50;
+        &:hover{
+            cursor: pointer;
+            background: #ffecec;
+            border: 2px solid #e94b4e;
+            color: #e94b4e;
+        }
+    }
+}
+
+.profile{
+    width: 221px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    &__avatar-1{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-image: url(../img/main/article_partner/Avatar_1.png);
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        margin-bottom: 17px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__add-1{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #FF4E50;
+        background-image: url(../img/main/SVG/Shape_melody.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 4px solid white;
+    }
+    &__name-1{
+        width: 221px;
+        height: 18px;
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: $main-header;
+    }
+    &__info-1{
+        width: 221px;
+        height: 38px;
+        display: flex;
+        align-items: flex-end;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+        color: #666666;
+    }
+    &__avatar-2, &__avatar-3, &__avatar-4{
+        @extend .profile__avatar-1;
+    }
+    &__avatar-2{
+        background-image: url(../img/main/article_partner/Avatar_2.png);
+    }
+    &__avatar-3{
+        background-image: url(../img/main/article_partner/Avatar_3.png);
+    }
+    &__avatar-4{
+        background-image: url(../img/main/article_partner/Avatar_4.png);
+    }
+    &__add-2, &__add-3, &__add-4{
+        @extend .profile__add-1;
+    }
+    &__add-2{
+        background: #19D4CA;
+        background-image: url(../img/main/SVG/Shape_brush.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__add-3{
+        background: #FFA710;
+        background-image: url(../img/main/SVG/Shape_camera.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__add-4{
+        background: #667DF3;
+        background-image: url(../img/main/SVG/Shape_airplane.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__name-2, &__name-3, &__name-4{
+        @extend .profile__name-1;
+    }
+    &__info-2, &__info-3, &__info-4{
+        @extend .profile__info-1;
+        justify-content: center;
+    }
+    &__info-3, &__info-4{
+        margin-top: 19px;
+    }
+}

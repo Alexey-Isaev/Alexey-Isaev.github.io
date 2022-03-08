@@ -1,0 +1,106 @@
+.about{
+    width: 1440px;
+    height: 556px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    &__container{
+        width: 940px;
+        height: 468px;
+    }
+}
+
+.about-header{
+    width: 940px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: $main-header;
+}
+
+.about-content{
+    width: 940px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    &__point{
+        width: 250px;
+        height: 20px;
+        margin-bottom: 15px;
+    }
+    &__pointer{
+        width: 70px;
+        height: 20px;
+        background: #FF4E50;
+        border-radius: 40px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    &__header{
+        width: 250px;
+        height: 58px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: flex-end;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    &__header_one-string{
+        @extend .step__header;
+        height: 38px;
+        margin-bottom: 0px;
+    }
+    &__text{
+        width: 250px;
+        height: 57px;
+        margin-bottom: 21px;
+        display: flex;
+        align-items: flex-end;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 14px;
+        color: #E3E3E3;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.step-img-1{
+    background-image: url(../img/main/article_about/Step_1_image.png);
+}
+.step-img-2{
+    background-image: url(../img/main/article_about/Step_2_image.png);
+}
+.step-img-3{
+    background-image: url(../img/main/article_about/Step_3_image.png);
+}

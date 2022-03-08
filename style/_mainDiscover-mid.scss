@@ -1,0 +1,57 @@
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+    .discover{
+        width: 768px;
+        height: 1126px;
+        &__container{
+            width: 748px;
+            height: 1031px;
+        }
+        &__header{
+            width: 748px;
+            height: 67px;
+
+            font-size: 22px;
+            line-height: 27px;
+
+        }
+        &__content{
+            width: 748px;
+            height: 970px;
+            grid-template-columns: 236px 236px 236px;
+            grid-template-rows: 310px 310px 310px;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+
+    }
+    .kind-1{
+        background-image: url(../img/main/article_discover/Photo_mid_1.png);
+    }
+    .kind-2{
+        background-image: url(../img/main/article_discover/Photo_mid_2.png);
+    }
+    .kind-3{
+        background-image: url(../img/main/article_discover/Photo_mid_3.png);
+    }
+    .kind-4{
+        background-image: url(../img/main/article_discover/Photo_mid_4.png);
+    }
+    .kind-5{
+        background-image: url(../img/main/article_discover/Photo_mid_5.png);
+    }
+    .kind-6{
+        background-image: url(../img/main/article_discover/Photo_mid_6.png);
+    }
+    .kind-7{
+        background-image: url(../img/main/article_discover/Photo_mid_7.png);
+    } 
+}
+
+.text-center{
+    font-size: 22px;
+    line-height: 27px;
+
+}
+.mid{
+    display: block;
+}

@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px){
+    .partner{
+        width: 320px;
+        height: 1067px;
+        &__container{
+            width: 280px;
+            height: 1031px;
+        }
+        &__header{
+            width: 280px;
+            height: 68px;
+            padding-bottom: 0px;
+            text-align: center;
+            font-size: 23px;
+            line-height: 26px;
+        }
+        &__content{
+            width: 236px;
+            height: 891px;
+            flex-direction: column;
+        }
+        &__button-space{
+            width: 280px;
+            height: 76px;
+            align-items: flex-end;
+        }
+        &__button{
+            width: 280px;
+            height: 40px;
+            justify-content: center;
+        }
+    }
+    
+    .profile{
+        width: 236px;
+        height: 205px;
+
+        &__avatar-1{
+            width: 120px;
+            height: 120px;
+        }
+        &__name-1{
+            width: 236px;
+
+            margin-bottom: 12px;
+
+        }
+        &__info-1{
+            width: 237px;
+            height: 38px;
+
+        }
+        &__info-4{
+            width: 240px;
+            margin-top: 0px;
+        }
+        &__name-1, &__name-2, &__name-3, &__name-4{
+            font-size: 14px;
+        }
+    }  
+    .hid{
+        display: none;
+    }  
+    .increased {
+        height: 224px;
+    }
+}

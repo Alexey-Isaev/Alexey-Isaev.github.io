@@ -1,0 +1,64 @@
+@import '../basic/variables';
+@import '../basic/mixins';
+header{
+    width: 1440px;
+    height: 700px;
+    background-image: url(../img/header/Background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    @include size-flex_w_h_fd_jc_ai (901px, 40px, none, space-between, center);
+    margin-top: 38px;
+    margin-right: 40px;
+    &__logo{
+        @include font-style_lh_ta_c_f_st_w_siz (24px, none, $header-font-color, Montserrat, normal, bold, 20px);
+    }
+    &__buttons{
+        @include size-flex_w_h_fd_jc_ai (180px, 40px, none, space-between, center);
+        @include font-style_lh_ta_c_f_st_w_siz (17px, none, $header-font-color, Montserrat, normal, normal, 14px);
+    }
+    &__item-button{
+        @include size-flex_w_h_fd_jc_ai (90px, 36px, none, center, center);
+        border-radius: 40px;
+        &:hover{
+            cursor: pointer;
+            border: 1px solid #ccc9c8;
+            width: 87px;
+        }
+    }
+    &__item-button_active{
+        @include size-flex_w_h_fd_jc_ai (90px, 36px, none, center, center);
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.head-text-container{
+    @include size-flex_w_h_fd_jc_ai (470px, 253px, column, none, center);
+    margin-top: 148px;
+    &__header{
+        @include size-flex_w_h_fd_jc_ai (485px, 121px, none, center, center);
+        @include font-style_lh_ta_c_f_st_w_siz (63px, center, $header-font-color, Montserrat, normal, bold, 53px);
+    }
+    &__text{
+        @include size-flex_w_h_fd_jc_ai (470px, 87px, none, center, center);
+        @include font-style_lh_ta_c_f_st_w_siz (24px, center, #F7F3F2, Roboto, normal, 300, 24px);
+        margin-bottom: 2px;
+    }
+    &__button{
+        @include size-flex_w_h_fd_jc_ai (225px, 40px, none, center, center);
+        background: #FF4E50;
+        border-radius: 40px;
+        @include font-style_lh_ta_c_f_st_w_siz (17px, center, $header-font-color, Montserrat, normal, bold, 14px);
+        &:hover{
+            cursor: pointer;
+            background: #e94b4e;
+        }
+    }
+}

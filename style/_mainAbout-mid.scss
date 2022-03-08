@@ -1,0 +1,63 @@
+
+@media screen and(max-width: 1440px) and(min-width: 768px) {
+    .about{
+        width: 768px;
+        height: 556px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        &__container{
+            width: 748px;
+            height: 461px;
+        }
+    }
+    
+    .about-header{
+        width: 748px;
+        height: 61px;
+        font-size: 22px;
+        line-height: 27px;
+
+    }
+    
+    .about-content{
+        width: 748px;
+    }
+    
+    .step{
+        width: 236px;
+        &__point{
+            width: 196px;
+
+            margin-bottom: 4px;
+        }
+        &__header{
+            width: 196px;
+            height: 66px;
+            margin-bottom: 27px;
+
+            line-height: 14px;
+        }
+        &__header_one-string{
+            width: 174px;
+            height: 38px;
+            margin-right: 21px;
+            margin-bottom: 6px;
+        }
+        &__text{
+            width: 196px;
+            height: 59px;
+            margin-bottom: 18px;
+        }
+    }
+    
+    .step-img-1{
+        background-image: url(../img/main/article_about/Step_1_mid_image.png);
+    }
+    .step-img-2{
+        background-image: url(../img/main/article_about/Step__mid_image.png);
+    }
+    .step-img-3{
+        background-image: url(../img/main/article_about/Step_3_mid_image.png);
+    }
+}

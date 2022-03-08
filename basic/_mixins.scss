@@ -1,0 +1,20 @@
+@mixin size-flex_w_h_fd_jc_ai ($w, $h, $fd, $jc, $ai) {
+    width: $w;
+    height: $h;
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin font-style_lh_ta_c_f_st_w_siz ($lh, $ta, $c, $f, $st, $w, $siz){
+    line-height: $lh;
+    text-align: $ta;
+    color: $c;
+    font: {
+        family: $f;
+        style: $st;
+        weight: $w;
+        size: $siz;
+    }
+}

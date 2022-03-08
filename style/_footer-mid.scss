@@ -1,0 +1,30 @@
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+    footer{
+        width: 768px;
+        height: 244px;
+    }
+    .foot-container{
+        width: 692px;
+        height: 186px;
+    }
+    .foot-nav{
+        width: 461px;
+        height: 186px;
+    }
+    .foot-logo {
+        font-size: 16px;
+    }
+    .list-1 {
+        margin-left: 51px;
+        margin-top: 6px;
+        &__header{
+            font-size: 15px; 
+        } 
+    }
+    .list-2 {
+        margin-top: 6px;
+    }
+    .designed{
+        padding-top: 6px;
+    }
+}
